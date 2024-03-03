@@ -1,13 +1,8 @@
 <?php
-// Definición de la clase Dog que hereda de Animal
-class Perro extends Animal {
-
- //metodo
- public function makeSound() 
-
+// Definición de la clase Dog que hereda 
+class Perro extends Animal{
+    public function makeSound(){
+        echo "Guau, guau!";
+    }
 }
-
-
-
-
 ?>
