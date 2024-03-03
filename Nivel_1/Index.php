@@ -9,6 +9,11 @@ require_once "Gato.php";
 require_once "Perro.php";
 
 
+$perro = new Perro("Max");
+echo $perro -> getName() . "dice: " . $perro -> makeSound() .  "\n" ;
+
+$gato = new Gato("Neo");
+echo $gato -> getName() . "dice: " . $gato -> makeSound();
 
 
 ?>
